@@ -1,29 +1,13 @@
-# README #
+## Student Attendance UI
+Student Attendance UI is used to communnicate with an API to capture student attendance and pull attendance reports. This is currently in develop stage.
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Installation
+Please make sure the API is up and runnning. Please open Student Attendance API readme file for instructions on how to run the API.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1.Git clone the UI
+2.Open the UI folder using visual studio code
+3.Open visual studio code terminal
+4.Make sure you are inside src folder.
+5.Execute npm install. This will take some time.
+6.Execute ng serve
+7.Open localhost http://localhost:4200/
