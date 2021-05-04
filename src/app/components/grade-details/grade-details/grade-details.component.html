@@ -1,0 +1,22 @@
+<h4>Current grade: <span>{{gradeId}}</span></h4>
+
+<div>
+  <button>New Register</button>
+</div>
+<hr>
+
+<p>Old attendance registers</p>
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let register of registers">
+      <td>{{register.dateCreated | date: 'dd/MM/yyyy'}}</td>
+      <td><button>View Details</button></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+<div class="content">
+  <h2>Grades</h2>
+  <div id="gradeStrip">
+    <form action="">
+      <input type="number" placeholder="Grade">
+      <input type="text" placeholder="Name">
+      <button>Add Grade</button>
+    </form>
+  </div>
+  <p>Below is a list of grades:</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let grade of grades" (click)="gradeDetails(grade.id)">
+        <td>{{grade.name}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
